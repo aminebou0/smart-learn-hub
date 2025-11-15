@@ -1,0 +1,297 @@
+{
+  "gouvernance_si": {
+    "title": "Gouvernance des SI",
+    "description": "Évaluez votre compréhension des cadres et des processus de la gouvernance des systèmes d'information.",
+    "emoji": "🏛️",
+    "professor": "Mohammed EDDAOU",
+    "pdf_link": "gov.pdf",
+    "questions": [
+      {
+        "question": "Quel est l'objectif principal de la gouvernance des SI ?",
+        "options": ["Réduire les coûts informatiques", "Aligner la stratégie SI sur la stratégie métier", "Augmenter la sécurité du réseau", "Former les utilisateurs"],
+        "answer": "Aligner la stratégie SI sur la stratégie métier"
+      },
+      {
+        "question": "Quel framework est le plus connu pour la gouvernance et la gestion des SI d'entreprise ?",
+        "options": ["ITIL", "COBIT", "Scrum", "PRINCE2"],
+        "answer": "COBIT"
+      },
+      {
+        "question": "Que signifie l'acronyme COBIT ?",
+        "options": ["Control Objectives for Information and Related Technology", "Computer Operations for Business and Information Technology", "Corporate Objectives for Business and IT", "Control of Business Information Technology"],
+        "answer": "Control Objectives for Information and Related Technology"
+      },
+      {
+        "question": "Dans COBIT 5, combien y a-t-il de principes de gouvernance ?",
+        "options": ["3", "5", "7", "10"],
+        "answer": "5"
+      },
+      {
+        "question": "Lequel de ces éléments n'est PAS un domaine de processus de COBIT ?",
+        "options": ["Align, Plan and Organise (APO)", "Build, Acquire and Implement (BAI)", "Deliver, Service and Support (DSS)", "Innovate, Design and Test (IDT)"],
+        "answer": "Innovate, Design and Test (IDT)"
+      },
+      {
+        "question": "Quel est le rôle du 'RACI chart' en gouvernance ?",
+        "options": ["Mesurer la performance financière", "Définir les rôles et responsabilités", "Analyser les risques de sécurité", "Planifier les projets"],
+        "answer": "Définir les rôles et responsabilités"
+      },
+      {
+        "question": "ITIL est principalement axé sur :",
+        "options": ["La gestion des services informatiques (ITSM)", "La gouvernance d'entreprise", "La gestion de projet", "La sécurité des données"],
+        "answer": "La gestion des services informatiques (ITSM)"
+      },
+      {
+        "question": "La 'gestion des risques' en gouvernance SI vise à :",
+        "options": ["Éliminer tous les risques", "Identifier, évaluer et traiter les risques", "Transférer tous les risques à un tiers", "Ignorer les risques à faible impact"],
+        "answer": "Identifier, évaluer et traiter les risques"
+      },
+      {
+        "question": "Qu'est-ce qu'un 'Balanced Scorecard' (Tableau de bord prospectif) dans le contexte de la gouvernance SI ?",
+        "options": ["Un outil de comptabilité", "Un framework de gestion de la performance", "Un logiciel de sécurité", "Un type de base de données"],
+        "answer": "Un framework de gestion de la performance"
+      },
+      {
+        "question": "La conformité (compliance) en gouvernance SI se réfère à :",
+        "options": ["La satisfaction des utilisateurs", "L'adhésion aux lois, règlements et normes", "La performance maximale du système", "L'innovation technologique"],
+        "answer": "L'adhésion aux lois, règlements et normes"
+      }
+    ]
+  },
+  "big_data": {
+    "title": "Big Data",
+    "description": "Explorez les concepts clés, les technologies et les défis du Big Data.",
+    "emoji": "📊",
+    "professor": "Abdelilah ATTAR",
+    "pdf_link": "bd.pdf",
+    "questions": [
+      {
+        "question": "Quels sont les '3 V' originaux du Big Data ?",
+        "options": ["Volume, Vitesse, Variété", "Volume, Valeur, Visualisation", "Vitesse, Véracité, Valeur", "Volume, Vitesse, Véracité"],
+        "answer": "Volume, Vitesse, Variété"
+      },
+      {
+        "question": "Quelle technologie est au cœur de l'écosystème Hadoop pour le stockage distribué ?",
+        "options": ["MapReduce", "HDFS", "YARN", "Spark"],
+        "answer": "HDFS"
+      },
+      {
+        "question": "Quel est le rôle de MapReduce dans Hadoop ?",
+        "options": ["Gérer les ressources du cluster", "Stocker les données de manière redondante", "Traiter de grands ensembles de données en parallèle", "Interroger les données avec SQL"],
+        "answer": "Traiter de grands ensembles de données en parallèle"
+      },
+      {
+        "question": "Lequel de ces systèmes est une base de données NoSQL orientée document ?",
+        "options": ["Cassandra", "Redis", "MongoDB", "HBase"],
+        "answer": "MongoDB"
+      },
+      {
+        "question": "Apache Spark est souvent plus rapide que MapReduce parce que :",
+        "options": ["Il est écrit en Scala", "Il utilise plus de disques durs", "Il effectue les calculs en mémoire (in-memory)", "Il a une meilleure interface utilisateur"],
+        "answer": "Il effectue les calculs en mémoire (in-memory)"
+      },
+      {
+        "question": "La 'Véracité' dans le Big Data se réfère à :",
+        "options": ["La vitesse de traitement des données", "La diversité des types de données", "La fiabilité et la qualité des données", "La quantité de données"],
+        "answer": "La fiabilité et la qualité des données"
+      },
+      {
+        "question": "Qu'est-ce que l'ETL dans le contexte du Big Data ?",
+        "options": ["Extract, Transform, Load", "Execute, Test, Launch", "Explore, Transfer, Link", "Estimate, Track, Log"],
+        "answer": "Extract, Transform, Load"
+      },
+      {
+        "question": "Quel outil de l'écosystème Hadoop est utilisé pour l'interrogation de données de type SQL ?",
+        "options": ["Pig", "Flume", "Hive", "Oozie"],
+        "answer": "Hive"
+      },
+      {
+        "question": "Les données non structurées peuvent inclure :",
+        "options": ["Des tables dans une base de données SQL", "Des fichiers CSV", "Des emails, des vidéos et des publications sur les réseaux sociaux", "Des feuilles de calcul Excel"],
+        "answer": "Des emails, des vidéos et des publications sur les réseaux sociaux"
+      },
+      {
+        "question": "Quel est le principal avantage d'un 'Data Lake' par rapport à un 'Data Warehouse' ?",
+        "options": ["Il ne stocke que des données structurées", "Il est plus sécurisé", "Il peut stocker des données brutes dans leur format natif", "Il est moins cher à maintenir"],
+        "answer": "Il peut stocker des données brutes dans leur format natif"
+      }
+    ]
+  },
+  "machine_learning": {
+    "title": "Machine Learning",
+    "description": "Plongez dans les algorithmes et les modèles qui permettent aux machines d'apprendre.",
+    "emoji": "🤖",
+    "professor": "Safae BERRICHI",
+    "pdf_link": "ml.pdf",
+    "questions": [
+      {
+        "question": "Lequel de ces algorithmes est un exemple d'apprentissage supervisé ?",
+        "options": ["K-Means", "Régression Linéaire", "Analyse en Composantes Principales (ACP)", "Apriori"],
+        "answer": "Régression Linéaire"
+      },
+      {
+        "question": "À quoi sert le 'Clustering' (ou partitionnement de données) ?",
+        "options": ["Prédire une valeur continue", "Classifier des données dans des catégories prédéfinies", "Regrouper des données similaires sans étiquettes préalables", "Réduire le nombre de dimensions des données"],
+        "answer": "Regrouper des données similaires sans étiquettes préalables"
+      },
+      {
+        "question": "Qu'est-ce que le sur-apprentissage (overfitting) ?",
+        "options": ["Le modèle est trop simple pour capturer la structure des données", "Le modèle performe mal sur les données d'entraînement", "Le modèle est trop complexe et performe mal sur de nouvelles données", "Le modèle prend trop de temps à s'entraîner"],
+        "answer": "Le modèle est trop complexe et performe mal sur de nouvelles données"
+      },
+      {
+        "question": "Quelle est la fonction d'une 'fonction d'activation' dans un réseau de neurones ?",
+        "options": ["Calculer le taux d'erreur", "Normaliser les données d'entrée", "Introduire de la non-linéarité dans le modèle", "Choisir le nombre de neurones"],
+        "answer": "Introduire de la non-linéarité dans le modèle"
+      },
+      {
+        "question": "L'algorithme des 'K plus proches voisins' (K-NN) est un exemple de :",
+        "options": ["Apprentissage paramétrique", "Apprentissage non paramétrique (lazy learning)", "Apprentissage par renforcement", "Apprentissage profond"],
+        "answer": "Apprentissage non paramétrique (lazy learning)"
+      },
+      {
+        "question": "Comment évalue-t-on généralement un modèle de classification ?",
+        "options": ["Avec l'erreur quadratique moyenne (MSE)", "Avec une matrice de confusion", "Avec le coefficient de corrélation", "Avec l'analyse de variance (ANOVA)"],
+        "answer": "Avec une matrice de confusion"
+      },
+      {
+        "question": "Le 'Gradient Descent' (descente de gradient) est un algorithme utilisé pour :",
+        "options": ["Regrouper des données", "Trouver le minimum d'une fonction de coût", "Sélectionner des caractéristiques (features)", "Construire un arbre de décision"],
+        "answer": "Trouver le minimum d'une fonction de coût"
+      },
+      {
+        "question": "Quel est le but de la validation croisée (cross-validation) ?",
+        "options": ["Accélérer l'entraînement", "Évaluer la performance du modèle de manière plus robuste", "Simplifier le modèle", "Augmenter la taille du jeu de données"],
+        "answer": "Évaluer la performance du modèle de manière plus robuste"
+      },
+      {
+        "question": "Un 'arbre de décision' est utilisé pour des tâches de :",
+        "options": ["Clustering et réduction de dimension", "Classification et régression", "Apprentissage par renforcement uniquement", "Traitement du langage naturel uniquement"],
+        "answer": "Classification et régression"
+      },
+      {
+        "question": "Dans le traitement du langage naturel (NLP), que signifie 'tokenisation' ?",
+        "options": ["Traduire un texte", "Segmenter un texte en mots ou en phrases (tokens)", "Résumer un texte", "Analyser les sentiments d'un texte"],
+        "answer": "Segmenter un texte en mots ou en phrases (tokens)"
+      }
+    ]
+  },
+  "python": {
+    "title": "Python",
+    "description": "Maîtrisez les bases et les subtilités du langage de programmation Python.",
+    "emoji": "🐍",
+    "professor": "Safae BERRICHI",
+    "pdf_link": "python.pdf",
+    "questions": [
+      {
+        "question": "Quel mot-clé est utilisé pour définir une fonction en Python ?",
+        "options": ["function", "def", "fun", "define"],
+        "answer": "def"
+      },
+      {
+        "question": "Quel est le type de données de la variable x = [1, 'a', 2.5] ?",
+        "options": ["tuple", "dictionary", "set", "list"],
+        "answer": "list"
+      },
+      {
+        "question": "Comment ajoute-t-on un commentaire sur une seule ligne en Python ?",
+        "options": ["// Ceci est un commentaire", "/* Ceci est un commentaire */", "# Ceci est un commentaire", "<!-- Ceci est un commentaire -->"],
+        "answer": "# Ceci est un commentaire"
+      },
+      {
+        "question": "Quelle méthode de liste supprime le dernier élément et le renvoie ?",
+        "options": ["remove()", "delete()", "pop()", "discard()"],
+        "answer": "pop()"
+      },
+      {
+        "question": "Comment accède-t-on à la valeur associée à la clé 'nom' dans un dictionnaire `d` ?",
+        "options": ["d('nom')", "d.get_value('nom')", "d['nom']", "d.nom"],
+        "answer": "d['nom']"
+      },
+      {
+        "question": "Quel est le résultat de 3 * 'abc' ?",
+        "options": ["Une erreur", "'abcabcabc'", "['abc', 'abc', 'abc']", "9"],
+        "answer": "'abcabcabc'"
+      },
+      {
+        "question": "Quelle est la différence principale entre une liste et un tuple ?",
+        "options": ["Les listes sont immuables, les tuples sont muables", "Les tuples sont immuables, les listes sont muables", "Les tuples ne peuvent contenir que des nombres", "Les listes sont plus rapides"],
+        "answer": "Les tuples sont immuables, les listes sont muables"
+      },
+      {
+        "question": "Quel mot-clé est utilisé pour gérer les exceptions en Python ?",
+        "options": ["try...except", "if...error", "check...handle", "test...catch"],
+        "answer": "try...except"
+      },
+      {
+        "question": "Que fait l'expression `range(5)` ?",
+        "options": ["Génère la liste [1, 2, 3, 4, 5]", "Génère un objet représentant la séquence 0, 1, 2, 3, 4", "Génère la liste [0, 1, 2, 3, 4, 5]", "Génère une erreur"],
+        "answer": "Génère un objet représentant la séquence 0, 1, 2, 3, 4"
+      },
+      {
+        "question": "Comment s'appelle le gestionnaire de paquets officiel de Python ?",
+        "options": ["npm", "pip", "conda", "pyget"],
+        "answer": "pip"
+      }
+    ]
+  },
+  "english": {
+    "title": "Anglais",
+    "description": "Améliorez votre grammaire, votre vocabulaire et votre compréhension de la langue anglaise.",
+    "emoji": "🇬🇧",
+    "professor": "Soumiya BOUKNANA",
+    "pdf_link": "eng.pdf",
+    "questions": [
+      {
+        "question": "Which sentence is grammatically correct?",
+        "options": ["He don't like coffee.", "He doesn't likes coffee.", "He doesn't like coffee.", "He not like coffee."],
+        "answer": "He doesn't like coffee."
+      },
+      {
+        "question": "What is the past tense of the verb 'to swim'?",
+        "options": ["Swimed", "Swum", "Swam", "Swimming"],
+        "answer": "Swam"
+      },
+      {
+        "question": "Choose the correct synonym for 'happy'.",
+        "options": ["Sad", "Joyful", "Angry", "Tired"],
+        "answer": "Joyful"
+      },
+      {
+        "question": "I have been waiting for you ___ one hour.",
+        "options": ["since", "for", "at", "in"],
+        "answer": "for"
+      },
+      {
+        "question": "What does the idiom 'to bite the bullet' mean?",
+        "options": ["To eat something hard", "To go to the dentist", "To endure a difficult situation with courage", "To stop talking"],
+        "answer": "To endure a difficult situation with courage"
+      },
+      {
+        "question": "If I ___ you, I would study harder.",
+        "options": ["am", "was", "were", "be"],
+        "answer": "were"
+      },
+      {
+        "question": "Which of these is a preposition?",
+        "options": ["Quickly", "Beautiful", "Run", "Under"],
+        "answer": "Under"
+      },
+      {
+        "question": "The book is on the table. 'The' is a(n):",
+        "options": ["Adjective", "Verb", "Definite article", "Noun"],
+        "answer": "Definite article"
+      },
+      {
+        "question": "She is interested ___ learning French.",
+        "options": ["on", "in", "about", "for"],
+        "answer": "in"
+      },
+      {
+        "question": "What is the plural of 'mouse'?",
+        "options": ["Mouses", "Mice", "Mouse", "Mices"],
+        "answer": "Mice"
+      }
+    ]
+  }
+}
