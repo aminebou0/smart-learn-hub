@@ -52,7 +52,7 @@ Suivez ces étapes pour obtenir une copie locale du projet et la faire fonctionn
 
 1.  **Clonez le dépôt**
     ```bash
-    git clone [https://github.com/](https://github.com/)[VOTRE_NOM_UTILISATEUR]/smart-learn-hub.git
+    git clone [https://github.com/](https://github.com/)aminebou0/smart-learn-hub.git
     cd smart-learn-hub
     ```
 
@@ -145,5 +145,6 @@ Votre application **Smart-Learn-Hub** est maintenant accessible à l'adresse `ht
 Les contributions sont les bienvenues. Pour contribuer, veuillez forker le dépôt, créer une branche pour votre fonctionnalité et soumettre une Pull Request.
 
 ## 📜 Licence
+
 
 Ce projet est distribué sous la licence MIT.
